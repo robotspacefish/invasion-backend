@@ -1,24 +1,25 @@
-# README
+[front-end here](https://github.com/robotspacefish/invasion-frontend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Invasion!
 
-Things you may want to cover:
+A game about my dog Penny, dreaming of battling squirrels in space. Invasion was built with JavaScript on the frontend and Rails on the backend.
 
-* Ruby version
+<img src="./screenshot.png" alt="gameplay" width="600" height="auto" />
 
-* System dependencies
+## Installation
+Clone project
 
-* Configuration
+cd into invasion-backend
+run
+```
+bundle install
 
-* Database creation
+#setup the db
+rails db:create db:migrate
 
-* Database initialization
+# if you want starter player data
+rails db:seed
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# start the server
+rails s
+```

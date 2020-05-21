@@ -23,3 +23,5 @@ rails db:seed
 # start the server
 rails s
 ```
+
+Go [here](https://github.com/robotspacefish/invasion-frontend) for the front-end and follow the readme instructions
